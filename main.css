@@ -1,0 +1,135 @@
+body{
+    box-sizing: border-box;
+}
+
+
+header {
+  background-color: rgb(190, 223, 45);
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  height:70px;
+  width:100%;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+header ul li a {
+     display:block;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px 10px;
+      font-size: 15px;
+}
+
+nav {
+    float: left;
+    top: 115px;
+    width: 20%;
+    background: beige;
+    padding: 20px;
+    position: fixed;
+    bottom:50px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    width:20%;
+    height: 60px;
+  }
+
+  nav li a {
+      display:block;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px 10px;
+    }
+
+
+    #main-image{
+        float: left;
+        top: 450px;
+        width: 20%;
+        background: beige;
+        padding: 20px;
+        position: fixed;
+        bottom:50px;
+      }
+    
+
+
+
+     
+  
+
+
+  #main-content{
+      top: 115px;
+      margin-left: 20%;
+      width:80%;
+      padding:20px;
+      bottom:50px;
+      position: fixed;
+  }
+
+
+  .content{
+    top: 200px;
+    margin-left: 25%;
+    width:80%;
+    padding:20px;
+    bottom:50px;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+
+.content2{
+    top: 450px;
+    margin-left: 25%;
+    width:80%;
+    padding:20px;
+    bottom:50px;
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.content ul li{
+    display: inline;
+}
+
+.content2 ul li{
+    display: inline;
+}
+  
+  
+
+
+footer{
+    background-color: rgb(190, 223, 45);;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
